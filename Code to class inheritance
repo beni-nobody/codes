@@ -1,0 +1,15 @@
+class Railway:
+  def __init__(self, name, number):
+    self.name = name
+    self.number = number
+  def showinfo(self):
+    print(f"the train number is {self.number} and name is {self.name}")
+class Transport(Railway):
+  def ShowCategory(self):
+    print(f"the category is Trains")
+
+a = Railway("Shatabdi", 45370)
+a.showinfo()
+b = Transport("Express", 34560)
+b.showinfo()
+b.ShowCategory()
