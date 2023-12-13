@@ -1,0 +1,19 @@
+class person():
+  name = "sumit"
+  occupation = "pilot"
+  age = 28
+  def info(self):
+    print(f"{self.name} is a {self.occupation} and his age is {self.age}")
+
+a = person()
+a.info()
+a.name = "sunny"
+a.occupation = "businessman"
+a.age = 25
+a.info()
+
+b = person()
+b.name = "shunham"
+b.occupation = "engineer"
+b.age = 27
+b.info()
